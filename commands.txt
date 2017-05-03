@@ -1,0 +1,10 @@
+# to add stimulus column to data for tone task
+# -t single files
+# -d data directory
+# -o output directory
+python add_stim.py -d /home/yoel/Desktop/SL/data_from_server/data -t 1 -o /home/yoel/Desktop/SL/data_from_server/data_stim_added
+
+# to change file names for consistency
+# -t  1 kids,  0 adults,  2 both
+# -d data directory
+python file_name_cleaner.py -d /home/yoel/Desktop/SL/data_from_server/data_stim_added -t 1
